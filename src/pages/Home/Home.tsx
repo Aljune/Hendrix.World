@@ -10,7 +10,6 @@ import "../../pages/Home/home.scss";
 import BannerVideo from "../../components/Form/BannerVideo";
 
 const HomePage = () => {
-  // const videoRef = useRef<HTMLIFrameElement | null>(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate(); // Initialize useNavigate
 

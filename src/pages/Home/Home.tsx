@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 import Header from "../../components/common/Header/Header";
 import Footer from "../../components/common/Footer/Footer";
@@ -60,10 +60,11 @@ const HomePage = () => {
                   <button className="shop-button" onClick={handleShopClick}>Shop Here</button>
                 </div>
               </div>
+              <div className="gif-container">
+                <img src={Gif} alt="Your GIF" className="gif-image" />
+              </div>
             </div>
-            <div className="gif-container">
-              <img src={Gif} alt="Your GIF" className="gif-image" />
-            </div>
+            
             <section className="productlist-section">
               <ProductList />
             </section>

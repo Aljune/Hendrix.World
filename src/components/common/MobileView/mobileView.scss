@@ -1,5 +1,83 @@
 @import "./../../../styles/global.scss";
 
+@media only screen and (max-width: 768px) {
+    .gif-image{
+        width: 172px;
+    }
+    .gif-container {
+        top: 11%;
+        left: 86%;
+    }
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        height: 85px;
+        z-index: 3;
+    }
+    .shop-here{
+        top: -8%;
+        left: 69%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 426px) {
+    .footer-content {
+        flex-direction: column;
+        div {
+            margin-bottom: 1em;
+        }
+    } 
+    .shop-here{
+        justify-content: center;
+        flex-direction: row;
+        top: 34%;
+        left: 52%;
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 415px) {
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        width: 30%;
+        height: 45px;
+        left: 11px;
+        z-index: 3;
+    }
+    .gif-container{
+        left: 72%;
+        top: -3%;
+    }
+    .shop-here{
+        justify-content: space-evenly;
+        flex-direction: row;
+        top: 42%;
+        left: 50%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    .gif-image {
+        width: 133px;
+    }
+}
+
+
+
 @media only screen and (max-width: 361px) {
 
     .footer-image{
@@ -26,68 +104,6 @@
     }
 }
 
-@media only screen and (max-width: 415px) {
-    .footer-image{
-        height: 90px;
-    }
-    .image-gallery {
-        top: -9rem;
-    }
-    .ninjastar-image{
-        width: 30%;
-        height: 45px;
-        left: 11px;
-        z-index: 3;
-    }
-    .gif-container{
-        left: 72%;
-    }
-    .shop-here{
-        justify-content: space-evenly;
-        flex-direction: row;
-        top: 42%;
-        left: 50%;
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 426px) {
-    .footer-content {
-        flex-direction: column;
-        div {
-            margin-bottom: 1em;
-        }
-    } 
-   
-}
 
 
-@media only screen and (max-width: 769px) {
-    .gif-image{
-        width: 172px;
-    }
-    .gif-container {
-        top: 11%;
-        left: 86%;
-    }
-    .footer-image{
-        height: 90px;
-    }
-    .image-gallery {
-        top: -9rem;
-    }
-    .ninjastar-image{
-        height: 85px;
-        z-index: 3;
-    }
-    .shop-here{
-        justify-content: center;
-        flex-direction: column;
-        top: -4%;
-        left: 71%;
-    }
-    .footer-content {
-        flex-direction: row;
-       
-    } 
-    
-}
+
